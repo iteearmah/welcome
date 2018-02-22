@@ -1,6 +1,7 @@
 {
     "name": "iteearmah/welcome",
     "description": "Welcome  package",
+    "license": "MIT",
     "authors": [
         {
             "name": "Samuel Armah",
@@ -9,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Iteearmah\\Welcome\\":"packages/iteearmah/welcome/src"
+            "Iteearmah\\Welcome\\":"src/"
         }
     },
     "extra": {
