@@ -16,7 +16,7 @@
         "laravel": {
             "providers": [
                 "Iteearmah\\Welcome\\WelcomeServiceProvider"
-            ],
+            ]
         }
     },
     "require": {}
