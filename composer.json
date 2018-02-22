@@ -12,12 +12,5 @@
             "Iteearmah\\Welcome\\":"packages/iteearmah/welcome/src",
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Iteearmah\\Welcome\\WelcomeServiceProvider"
-            ],
-        }
-    },
     "require": {}
 }
