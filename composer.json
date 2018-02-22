@@ -1,0 +1,23 @@
+{
+    "name": "iteearmah/welcome",
+    "description": "Welcome  package",
+    "authors": [
+        {
+            "name": "Samuel Armah",
+            "email": "iteearmah@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Iteearmah\\Welcome\\":"packages/iteearmah/welcome/src",
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iteearmah\\Welcome\\WelcomeServiceProvider"
+            ],
+        }
+    },
+    "require": {}
+}
