@@ -17,7 +17,7 @@ class WelcomeServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/routes.php');
         $this->loadViewsFrom(__DIR__ . '/views', 'iteearmahwelcome');
         $this->publishes([
-            __DIR__.'/views'  => resource_path('views/vendor/iteearmah/welcome'),
+            __DIR__.'/views'  => resource_path('views/vendor/iteearmahwelcome'),
         ], 'welcome_view');
 
     }
